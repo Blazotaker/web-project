@@ -1,0 +1,45 @@
+.py-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* About us */
+
+#py-about .py-column {
+  width: 50%;
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* sections */
+
+.py-section {
+  padding: 100px 0;
+}
+
+/**/
+
+#py-about .icon-trophy {
+  font-size: 45px;
+  color: orange;
+}
+
+#py-about .icon-leaf{
+  font-size: 45px;
+  color: green;
+}
+
+#py-about .icon-rocket{
+  font-size: 45px;
+  color: red;
+}
+
+#py-about .icon-briefcase{
+  font-size: 45px;
+  color: brown;
+}

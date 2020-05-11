@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'fonts.css';
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+  font-size: 700%;
+  font-weight: lighter;
+}
+
+h3 {
+   width: 100%;
+   margin-top: 0;
+   font-size: 40px;
+   text-align: center;
+
+}
+h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}

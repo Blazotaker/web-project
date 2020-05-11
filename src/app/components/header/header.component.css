@@ -1,0 +1,140 @@
+/* Banner */
+
+.py-main-banner {
+  display: block;
+  width: 100%;
+  height: 960px;
+}
+
+
+
+.py-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.py-align-center {
+  align-items: center;
+}
+
+.py-header-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, .5);
+}
+
+.py-header-text .py-arrow {
+  display: inline-block;
+  padding: 20px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  cursor: pointer;
+  -webkit-transition: opacity .3 ease;
+  transition: opacity .3 ease;
+}
+
+.py-header-text .py-arrow:hover {
+  opacity: .7;
+}
+
+/* Nav */
+
+header {
+  position: relative;
+}
+
+header nav {
+  position: fixed;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  z-index: 999;
+}
+
+header nav ul.py-navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+header nav ul.py-navigation li a {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0 16px;
+}
+
+header nav ul.py-navigation li:last-child a {
+  padding-right: 0;
+}
+
+header nav ul.py-navigation li a:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  background-color: aqua;
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+header nav ul.py-navigation li a:hover:after {
+  opacity: 1;
+  width: 100%;
+}
+
+
+
+/* Logo */
+
+.py-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 26px;
+  width: 60px;
+  height: 60px;
+  /*text-align: center;*/
+  border: solid 2px #fff;
+  /*line-height: 60px;*/
+  border-radius: 100%;
+  color: white;
+}
+
+/* Animations*/
+
+.py-pulsate {
+  -webkit-animation: pulsate 3s/* ease-in-out */
+  ;
+  -webkit-animation-iteration-count: infinite;
+  /* opacity: .3; */
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: .3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .3;
+  }
+}
