@@ -1,4 +1,4 @@
-.py-container {
+/* .py-container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -6,7 +6,7 @@
   margin: 0 auto;
   justify-content: space-between;
   box-sizing: border-box;
-}
+} */
 
 /* About us */
 
@@ -18,9 +18,9 @@
 
 /* sections */
 
-.py-section {
+/* .py-section {
   padding: 100px 0;
-}
+} */
 
 /**/
 

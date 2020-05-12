@@ -1,0 +1,48 @@
+/* Gallery */
+
+#py-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#py-gallery li {
+  width: 20%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#py-gallery li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#py-gallery li img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#py-gallery li:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,.4) ;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+
+}
+
+#py-gallery li:hover:after {
+  width: 0;
+  height: 0;
+}

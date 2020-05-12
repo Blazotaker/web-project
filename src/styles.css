@@ -27,3 +27,17 @@ h3 {
 h2,h3,h4,h5,h6 {
   font-weight: normal;
 }
+
+.py-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.py-section {
+  padding: 100px 0;
+}

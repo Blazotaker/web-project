@@ -1,0 +1,74 @@
+#py-testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.py-testimonials {
+  max-width: 500px;
+}
+
+.py-testimonials ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.py-testimonials ul li {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.py-testimonials ul li .py-user-data img {
+  /* width: 50%;
+  height: 50%; */
+  border-radius: 100%;
+}
+
+.py-testimonials ul li .py-user-name {
+  display: block;
+  margin: 15px 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+.py-testimonials ul li>p {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  color: #cccccc
+}
+
+.py-testimonials .py-arrow {
+  position: absolute;
+  display: inline-block;
+  padding: 20px;
+  border: solid #cccccc;
+  border-width: 0 3px 3px 0;
+  cursor: pointer;
+  -webkit-transition: border-color .3 ease;
+  transition: border-color .3 ease;
+}
+
+.py-testimonials .py-arrow.aw-arrow-left {
+  right: 70%;
+  top: 500%;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.py-testimonials .py-arrow.aw-arrow-right {
+  left: 70%;
+  top: 500%;
+  transform: rotate(15deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+.py-testimonials .py-arrow:hover {
+  border-color: #dca453
+}
