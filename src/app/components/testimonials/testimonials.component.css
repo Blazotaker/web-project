@@ -5,7 +5,7 @@
 }
 
 .py-testimonials {
-  max-width: 500px;
+  max-width: 450px;
 }
 
 .py-testimonials ul {
@@ -56,14 +56,14 @@
 
 .py-testimonials .py-arrow.aw-arrow-left {
   right: 70%;
-  top: 500%;
+  top: 450%;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
 
 .py-testimonials .py-arrow.aw-arrow-right {
   left: 70%;
-  top: 500%;
+  top: 450%;
   transform: rotate(15deg);
   -webkit-transform: rotate(-45deg);
 }

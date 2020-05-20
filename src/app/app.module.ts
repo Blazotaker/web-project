@@ -8,6 +8,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FormsModule } from '@angular/forms';
+import { FlashMessagesModule } from 'angular2-flash-messages';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,15 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
     FooterComponent,
     AboutUsComponent,
     GalleryComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    FlashMessagesModule.forRoot(),
+
   ],
   providers: [],
   bootstrap: [AppComponent]

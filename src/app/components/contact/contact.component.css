@@ -1,0 +1,75 @@
+/*
+  Contact
+*/
+
+#py-contact {
+  background: #f8f8f8;
+}
+
+#py-contact form {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#py-contact form input:not([type="submit"]), #py-contact form textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: solid 1px #cccccc;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+#py-contact form textarea {
+  height: 100px;
+  resize: none;
+}
+
+#py-contact form *::-webkit-input-placeholder {
+  color: #cccccc;
+  font-style: italic;
+}
+
+
+#py-contact form *::-moz-placeholder {
+  color: #cccccc;
+  font-style: italic;
+}
+
+
+#py-contact form *:-ms-input-placeholder {
+  color: #cccccc;
+  font-style: italic;
+}
+
+#py-contact form *::-moz-input-placeholder {
+  color: #cccccc;
+  font-style: italic;
+}
+
+/* Submit */
+
+#py-contact input[type="submit"]{
+  border: none;
+  margin-top: 20px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: orange;
+  font-size: 16px;
+  /* box-shadow: inset 0 -3px 0 0 #c79652; */
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#py-contact input[type="submit"]:hover{
+  color: black;
+ /*  box-shadow: inset 0 -3 0 0 #a27c47; */
+}
