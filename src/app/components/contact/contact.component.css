@@ -71,5 +71,5 @@
 
 #py-contact input[type="submit"]:hover{
   color: black;
- /*  box-shadow: inset 0 -3 0 0 #a27c47; */
+  box-shadow: inset 0 -3px 0 0 #a27c47;
 }

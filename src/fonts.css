@@ -52,3 +52,7 @@
 .icon-linkedin2:before {
   content: "\eaca";
 }
+
+.icon-github:before {
+  content: "\eab0";
+}

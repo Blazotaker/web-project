@@ -41,3 +41,19 @@ h2,h3,h4,h5,h6 {
 .py-section {
   padding: 100px 0;
 }
+
+
+.py-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 26px;
+  width: 60px;
+  height: 60px;
+  /*text-align: center;*/
+  border: solid 2px #fff;
+  /*line-height: 60px;*/
+  border-radius: 100%;
+  color: white;
+}
